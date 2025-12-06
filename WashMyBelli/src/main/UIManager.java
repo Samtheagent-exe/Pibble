@@ -275,7 +275,7 @@ public class UIManager extends JPanel {
                 if (isFlipped) {
                     // Draw Vertically Flipped (Upside Down)
                     // We draw from the bottom-up by using negative height
-                    g2d.drawImage(activeForeground, baseX, animY + pibbleHeight, -pibbleWidth, pibbleHeight, null);
+                    g2d.drawImage(activeForeground, baseX, animY + pibbleHeight, pibbleWidth, -pibbleHeight, null);
                 } else {
                     // Normal Draw
                     g2d.drawImage(activeForeground, baseX, animY, pibbleWidth, pibbleHeight, null);
